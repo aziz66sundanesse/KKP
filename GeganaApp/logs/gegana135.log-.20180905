@@ -1,0 +1,36 @@
+2018-09-05 00:07:15,120 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_customer WHERE data_status = 'A' 
+  2018-09-05 00:30:13,314 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_bahan WHERE data_status = 'A' 
+  2018-09-05 01:44:44,807 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_bahan WHERE data_status = 'A' 
+  2018-09-05 01:45:36,829 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_bahan WHERE data_status = 'A' 
+  2018-09-05 14:26:49,654 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_customer WHERE data_status = 'A' 
+  2018-09-05 14:47:10,992 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_bahan WHERE data_status = 'A' 
+  2018-09-05 15:01:56,082 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_supplier WHERE data_status = 'A' 
+  2018-09-05 15:07:12,100 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_customer WHERE data_status = 'A' 
+  2018-09-05 15:09:26,622 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_customer WHERE data_status = 'A' 
+  2018-09-05 15:46:12,661 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT COUNT(kode_transaksi) AS NO  FROM tr_pembelian
+  2018-09-05 15:46:15,834 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_supplier WHERE data_status = 'A' 
+  2018-09-05 15:46:33,372 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - INSERT INTO tr_pembelian  (kode_transaksi,total_harga,data_status,kode_supplier) VALUES (?,?,?,?)
+  2018-09-05 15:46:33,388 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - VALUES ('TR-00003', '325000.0', 'A', 'SPL-00001')
+  2018-09-05 15:46:33,544 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - INSERT INTO tr_pembelian_detail  (kode_transaksi,total,jumlah,kode_bahan) VALUES (?,?,?,?)
+  2018-09-05 15:46:33,544 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - VALUES ('TR-00003', '325000.0', '25', 'BHN-00002')
+  2018-09-05 15:46:33,591 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_bahan WHERE kode = 'BHN-00002' AND data_status = 'A' 
+  2018-09-05 15:46:33,622 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - UPDATE ms_bahan  SET harga = ?, nama = ?, jumlah = ?, kode = ?, data_status = ?  WHERE kode = 'BHN-00002' 
+  2018-09-05 15:46:33,622 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - VALUES ('13000.0', 'Topi', '134', 'BHN-00002', 'A')
+  2018-09-05 15:46:36,425 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_bahan WHERE data_status = 'A' 
+  2018-09-05 20:35:07,021 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_customer WHERE data_status = 'A' 
+  2018-09-05 20:35:12,691 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT COUNT(kode) AS NO  FROM ms_customer
+  2018-09-05 20:35:45,975 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT COUNT(kode) AS NO  FROM ms_customer
+  2018-09-05 20:36:02,139 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT COUNT(kode) AS NO  FROM ms_customer
+  2018-09-05 20:48:45,981 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT COUNT(kode) AS NO  FROM ms_customer
+  2018-09-05 21:25:41,889 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_bahan WHERE data_status = 'A' 
+  2018-09-05 21:25:54,614 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT COUNT(kode) AS NO  FROM ms_bahan
+  2018-09-05 21:29:22,993 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT COUNT(kode) AS NO  FROM ms_bahan
+  2018-09-05 21:32:35,773 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_supplier WHERE data_status = 'A' 
+  2018-09-05 21:39:50,676 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT COUNT(kode) AS NO  FROM ms_supplier
+  2018-09-05 21:43:21,610 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT COUNT(kode) AS NO  FROM ms_supplier
+  2018-09-05 22:00:07,590 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT COUNT(kode) AS NO  FROM ms_customer
+  2018-09-05 22:07:49,923 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT COUNT(kode) AS NO  FROM ms_bahan
+  2018-09-05 22:13:13,058 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_bahan WHERE data_status = 'A' 
+  2018-09-05 22:18:12,337 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT COUNT(kode_transaksi) AS NO  FROM tr_penjualan
+  2018-09-05 22:18:18,270 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_customer WHERE data_status = 'A' 
+  

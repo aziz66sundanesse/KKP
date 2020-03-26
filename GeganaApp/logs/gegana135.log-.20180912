@@ -1,0 +1,4 @@
+2018-09-12 22:10:00,946 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_bahan WHERE data_status = 'A' 
+  2018-09-12 22:10:07,727 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT COUNT(kode_transaksi) AS NO  FROM tr_penjualan
+  2018-09-12 22:10:09,241 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_customer WHERE data_status = 'A' 
+  

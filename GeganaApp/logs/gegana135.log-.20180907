@@ -1,0 +1,11 @@
+2018-09-07 18:31:24,545 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_customer WHERE data_status = 'A' 
+  2018-09-07 18:50:10,422 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_customer WHERE data_status = 'A' 
+  2018-09-07 18:51:08,399 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_customer WHERE data_status = 'A' 
+  2018-09-07 18:53:10,597 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_customer WHERE data_status = 'A' 
+  2018-09-07 18:55:39,209 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_customer WHERE data_status = 'A' 
+  2018-09-07 18:59:44,109 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_bahan WHERE data_status = 'A' 
+  2018-09-07 18:59:49,760 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_customer WHERE data_status = 'A' 
+  2018-09-07 19:00:40,535 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_bahan WHERE data_status = 'A' 
+  2018-09-07 19:01:13,781 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_supplier WHERE data_status = 'A' 
+  2018-09-07 19:01:24,541 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_customer WHERE data_status = 'A' 
+  

@@ -1,0 +1,5 @@
+2019-07-20 11:58:49,089 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_customer WHERE data_status = 'A' 
+  2019-07-20 11:59:38,995 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_supplier WHERE data_status = 'A' 
+  2019-07-20 12:04:16,227 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_bahan WHERE data_status = 'A' 
+  2019-07-20 12:05:56,027 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_customer WHERE data_status = 'A' 
+  

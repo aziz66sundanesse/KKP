@@ -1,0 +1,23 @@
+2018-09-06 12:27:49,462 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_bahan WHERE data_status = 'A' 
+  2018-09-06 13:03:07,588 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_customer WHERE data_status = 'A' 
+  2018-09-06 13:06:14,387 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_customer WHERE data_status = 'A' 
+  2018-09-06 13:06:25,595 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_supplier WHERE data_status = 'A' 
+  2018-09-06 13:06:31,137 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_bahan WHERE data_status = 'A' 
+  2018-09-06 13:06:39,998 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_customer WHERE data_status = 'A' 
+  2018-09-06 13:06:47,439 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_customer WHERE data_status = 'A' 
+  2018-09-06 13:08:24,079 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_bahan WHERE data_status = 'A' 
+  2018-09-06 13:08:40,357 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_supplier WHERE data_status = 'A' 
+  2018-09-06 16:26:07,914 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_customer WHERE data_status = 'A' 
+  2018-09-06 16:27:17,791 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT COUNT(kode) AS NO  FROM ms_customer
+  2018-09-06 16:32:56,281 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_bahan WHERE data_status = 'A' 
+  2018-09-06 16:33:53,134 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT COUNT(kode) AS NO  FROM ms_bahan
+  2018-09-06 18:08:48,078 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_supplier WHERE data_status = 'A' 
+  2018-09-06 18:11:09,591 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT COUNT(kode) AS NO  FROM ms_supplier
+  2018-09-06 18:13:38,195 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_bahan WHERE data_status = 'A' 
+  2018-09-06 18:24:48,982 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_bahan WHERE data_status = 'A' 
+  2018-09-06 18:29:08,269 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_customer WHERE data_status = 'A' 
+  2018-09-06 18:34:37,167 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_supplier WHERE data_status = 'A' 
+  2018-09-06 18:40:10,907 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_bahan WHERE data_status = 'A' 
+  2018-09-06 18:46:42,968 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_customer WHERE data_status = 'A' 
+  2018-09-06 18:53:15,870 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_customer WHERE data_status = 'A' 
+  

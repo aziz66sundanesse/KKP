@@ -1,0 +1,2 @@
+2018-09-14 08:17:37,839 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_customer WHERE data_status = 'A' 
+  

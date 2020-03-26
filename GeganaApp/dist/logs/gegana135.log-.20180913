@@ -1,0 +1,38 @@
+2018-09-13 02:19:41,242 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_customer WHERE data_status = 'A' 
+  2018-09-13 02:19:44,008 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT COUNT(kode) AS NO  FROM ms_customer
+  2018-09-13 02:20:09,359 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - INSERT INTO ms_customer  (nama,kode,no_telp,alamat) VALUES (?,?,?,?)
+  2018-09-13 02:20:09,437 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - VALUES ('luthfi', 'CUST-00007', '089614235678', 'jl. otista no. 35')
+  2018-09-13 02:20:16,596 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_bahan WHERE data_status = 'A' 
+  2018-09-13 02:20:19,170 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT COUNT(kode) AS NO  FROM ms_bahan
+  2018-09-13 02:20:42,628 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - INSERT INTO ms_bahan  (jumlah,nama,harga,kode) VALUES (?,?,?,?)
+  2018-09-13 02:20:42,628 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - VALUES ('30', 'Kemeja', '50.0', 'BHN-00007')
+  2018-09-13 02:21:02,479 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - UPDATE ms_bahan  SET jumlah = ?, nama = ?, harga = ?, kode = ?  WHERE kode = 'BHN-00007' 
+  2018-09-13 02:21:02,479 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - VALUES ('30', 'Kemeja', '50000.0', 'BHN-00007')
+  2018-09-13 02:21:08,649 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_bahan WHERE data_status = 'A' 
+  2018-09-13 02:21:13,104 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT COUNT(kode_transaksi) AS NO  FROM tr_penjualan
+  2018-09-13 02:21:15,104 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_customer WHERE data_status = 'A' 
+  2018-09-13 02:21:27,170 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - INSERT INTO tr_penjualan  (kode_transaksi,kode_customer,total_harga,data_status) VALUES (?,?,?,?)
+  2018-09-13 02:21:27,170 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - VALUES ('TR-00018', 'CUST-00007', '600000.0', 'A')
+  2018-09-13 02:21:27,248 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - INSERT INTO tr_penjualan_detail  (kode_transaksi,total,jumlah,kode_bahan) VALUES (?,?,?,?)
+  2018-09-13 02:21:27,248 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - VALUES ('TR-00018', '600000.0', '12', 'BHN-00007')
+  2018-09-13 02:21:27,295 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_bahan WHERE kode = 'BHN-00007' AND data_status = 'A' 
+  2018-09-13 02:21:27,295 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - UPDATE ms_bahan  SET jumlah = ?, nama = ?, harga = ?, kode = ?, data_status = ?  WHERE kode = 'BHN-00007' 
+  2018-09-13 02:21:27,295 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - VALUES ('18', 'Kemeja', '50000.0', 'BHN-00007', 'A')
+  2018-09-13 02:21:38,134 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_bahan WHERE data_status = 'A' 
+  2018-09-13 02:21:55,293 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_bahan WHERE data_status = 'A' 
+  2018-09-13 02:21:57,356 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT COUNT(kode_transaksi) AS NO  FROM tr_pembelian
+  2018-09-13 02:21:58,856 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_supplier WHERE data_status = 'A' 
+  2018-09-13 02:22:12,407 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - INSERT INTO tr_pembelian  (kode_transaksi,total_harga,data_status,kode_supplier) VALUES (?,?,?,?)
+  2018-09-13 02:22:12,407 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - VALUES ('TR-00006', '1600000.0', 'A', 'SPL-00003')
+  2018-09-13 02:22:12,485 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - INSERT INTO tr_pembelian_detail  (kode_transaksi,total,jumlah,kode_bahan) VALUES (?,?,?,?)
+  2018-09-13 02:22:12,485 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - VALUES ('TR-00006', '1600000.0', '32', 'BHN-00007')
+  2018-09-13 02:22:12,516 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_bahan WHERE kode = 'BHN-00007' AND data_status = 'A' 
+  2018-09-13 02:22:12,532 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - UPDATE ms_bahan  SET jumlah = ?, nama = ?, harga = ?, kode = ?, data_status = ?  WHERE kode = 'BHN-00007' 
+  2018-09-13 02:22:12,532 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - VALUES ('50', 'Kemeja', '50000.0', 'BHN-00007', 'A')
+  2018-09-13 02:22:13,547 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_bahan WHERE data_status = 'A' 
+  2018-09-13 02:22:21,009 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_customer WHERE data_status = 'A' 
+  2018-09-13 02:22:41,419 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_supplier WHERE data_status = 'A' 
+  2018-09-13 02:23:02,170 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_bahan WHERE data_status = 'A' 
+  2018-09-13 02:23:12,286 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_customer WHERE data_status = 'A' 
+  2018-09-13 02:23:28,962 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_customer WHERE data_status = 'A' 
+  

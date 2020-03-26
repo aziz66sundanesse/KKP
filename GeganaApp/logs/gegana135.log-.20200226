@@ -1,0 +1,5 @@
+2020-02-26 20:09:13,991 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_customer WHERE data_status = 'A' 
+  2020-02-26 20:09:20,552 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT COUNT(kode) AS NO  FROM ms_customer
+  2020-02-26 20:09:29,752 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_customer WHERE data_status = 'A' 
+  2020-02-26 20:10:08,989 [AWT-EventQueue-0] INFO  (LogInfo.java:31) - SELECT  *  FROM ms_bahan WHERE data_status = 'A' 
+  
